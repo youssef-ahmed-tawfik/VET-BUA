@@ -1,0 +1,12 @@
+{
+  "subjects": [
+    { "id": "internal-medicine", "name_ar": "الباطنة", "name_en": "Internal Medicine" },
+    { "id": "toxicology", "name_ar": "السموم", "name_en": "Toxicology" },
+    { "id": "meat-hygiene", "name_ar": "اللحوم", "name_en": "Meat Hygiene and Inspection" },
+    { "id": "poultry", "name_ar": "الدواجن", "name_en": "Poultry Diseases" },
+    { "id": "dairy-hygiene", "name_ar": "الألبان", "name_en": "Dairy Hygiene and Inspection" },
+    { "id": "infectious", "name_ar": "الأمراض المعدية", "name_en": "Infectious Diseases" },
+    { "id": "transboundary", "name_ar": "الأمراض العابرة للحدود", "name_en": "Transboundary Diseases" }
+  ],
+  "lectures": []
+}

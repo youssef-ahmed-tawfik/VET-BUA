@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>مكتبة الطب البيطري — ملخصات وشروحات</title>
+<meta name="description" content="ملخصات وشروحات مواد كلية الطب البيطري — باطنة، سموم، لحوم، دواجن، ألبان، أمراض معدية، أمراض عابرة للحدود">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M16 8v16M8 16h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="16" cy="16" r="3" fill="currentColor" opacity="0.2"/>
+      </svg>
+      <span class="logo-text">
+        <strong>Vet Library</strong>
+        <small>مكتبة الطب البيطري</small>
+      </span>
+    </a>
+    <nav class="header-nav">
+      <a href="#about" class="nav-link">عن المكتبة</a>
+      <a href="#contact" class="nav-link">تواصل</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">فرقة واحدة · 7 مواد · محتوى موثّق</div>
+    <h1 class="hero-title">
+      شروحات وملخصات<br>
+      <span class="gradient">مواد كلية الطب البيطري</span>
+    </h1>
+    <p class="hero-sub">
+      محتوى دراسي من إعداد الطلاب، منظم بطريقة سهلة. اختر المادة وابدأ المذاكرة.
+    </p>
+    <div class="hero-search">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="search" id="search" placeholder="ابحث عن محاضرة…" autocomplete="off">
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <div class="subjects-grid" id="subjects"></div>
+  <div id="searchResults" class="search-results" hidden></div>
+</main>
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <h2>عن المكتبة</h2>
+        <p>
+          مشروع طلابي غير رسمي يهدف لتجميع الشروحات والملخصات الدراسية لمواد الفرقة في مكان واحد، بطريقة منظمة وسهلة الوصول من أي جهاز.
+        </p>
+      </div>
+      <div class="stats">
+        <div class="stat"><span class="stat-num" id="statSubjects">7</span><span class="stat-label">مادة</span></div>
+        <div class="stat"><span class="stat-num" id="statLectures">0</span><span class="stat-label">محاضرة</span></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">مجاني</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contact">
+  <div class="container">
+    <p>محتوى تعليمي غير رسمي — إعداد الطلاب · 2026</p>
+    <p class="footer-note">للاستفسار أو إضافة محتوى: تواصل مع المشرفين</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
