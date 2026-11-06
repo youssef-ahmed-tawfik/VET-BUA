@@ -8,5 +8,26 @@
     { "id": "infectious", "name_ar": "الأمراض المعدية", "name_en": "Infectious Diseases" },
     { "id": "transboundary", "name_ar": "الأمراض العابرة للحدود", "name_en": "Transboundary Diseases" }
   ],
-  "lectures": []
+  "lectures": [
+    {
+      "id": "int-003",
+      "subject_id": "internal-medicine",
+      "title_ar": "الصدمة الدورانية والوذمة والألم",
+      "title_en": "Circulatory Shock, Edema & Pain",
+      "html": "lectures/internal-medicine/003-shock-edema-pain.html",
+      "pdf": "",
+      "extra": "",
+      "notes": "محاضرة 3 — شرح + 50 سؤال MCQ تفاعلي"
+    },
+    {
+      "id": "int-004",
+      "subject_id": "internal-medicine",
+      "title_ar": "الإجهاد، التأق، سوء النمو، بيكا",
+      "title_en": "Stress, Anaphylaxis, Ill Thriftness & Pica",
+      "html": "lectures/internal-medicine/004-stress-anaphylaxis-pica.html",
+      "pdf": "",
+      "extra": "",
+      "notes": "محاضرة 4 — شرح + 50 سؤال MCQ تفاعلي"
+    }
+  ]
 }
