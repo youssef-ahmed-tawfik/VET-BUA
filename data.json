@@ -12,13 +12,15 @@
     {
       "id": "int-003",
       "subject_id": "internal-medicine",
-      "title_ar": "الصدمة الدورانية والوذمة والألم",
+      "title_ar": "الصدمة الدورانية، الوذمة، والألم",
       "title_en": "Circulatory Shock, Edema & Pain",
       "html": "lectures/internal-medicine/003-shock-edema-pain.html",
       "pdf": "",
       "extra": "",
       "notes": "محاضرة 3 — شرح + 50 سؤال MCQ تفاعلي"
-    },
+    }
+  ]
+},
     {
       "id": "int-004",
       "subject_id": "internal-medicine",
