@@ -18,17 +18,16 @@
       "pdf": "",
       "extra": "",
       "notes": "محاضرة 3 — شرح + 50 سؤال MCQ تفاعلي"
-    }
-  ]
-},
+    },
     {
       "id": "int-004",
       "subject_id": "internal-medicine",
       "title_ar": "الإجهاد، التأق، سوء النمو، بيكا",
       "title_en": "Stress, Anaphylaxis, Ill Thriftness & Pica",
-      "html": "Lectures/internal-medicine/004-stress-anaphylaxis-pica.html",
+      "html": "lectures/internal-medicine/004-stress-anaphylaxis-pica.html",
       "pdf": "",
       "extra": "",
       "notes": "محاضرة 4 — شرح + 50 سؤال MCQ تفاعلي"
     }
-  
+  ]
+}
